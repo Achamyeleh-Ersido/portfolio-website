@@ -90,7 +90,7 @@ export function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-accent/50 rounded-2xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl overflow-hidden border border-primary/20">
                 <img
-                  src="/professional-developer-portrait.png"
+                  src="/professional developer portrait.png"
                   alt="Developer Portrait"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />
