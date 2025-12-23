@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Download } from "lucide-react"
 import { useEffect, useRef } from "react"
 
+
 export function Hero() {
   const heroRef = useRef<HTMLElement>(null)
 
@@ -18,14 +19,17 @@ export function Hero() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const handleDownloadCV = () => {
-    const link = document.createElement("a")
-    link.href = "/cv-sample.pdf"
-    link.download = "John-Doe-CV.pdf"
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
+  //  const handleDownloadCV = () => {
+  //   const link = document.createElement("a")
+  //   link.href = "/resume-cv.pdf" // must be in /public
+  //   link.download = "resume-cv.pdf"
+  //   document.body.appendChild(link)
+  //   link.click()
+  //   document.body.removeChild(link)
+  // }const DownloadPDF = () => {
+  const handleDownload = (): void => {
+    window.location.href = "/files/CV.pdf";
+  };
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -60,10 +64,23 @@ export function Hero() {
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
-              <Button size="lg" variant="outline" onClick={handleDownloadCV}>
+              <Button size="lg" variant="outline" onClick={handleDownload}>
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </Button>
+              {/* <button
+      onClick={handleDownload}
+      className="px-4 py-2 bg-blue-600 text-white rounded"
+    >
+      Download PDF
+    </button> */}
+              {/* <Button size="lg" variant="outline" asChild>
+                <a href="/resume-cv.pdf" download>
+                  <Download className="mr-2 h-4 w-4 inline-block" />
+                  Download CV
+                </a>
+              </Button> */}
+
             </div>
           </div>
 
@@ -73,7 +90,7 @@ export function Hero() {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-accent/50 rounded-2xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl overflow-hidden border border-primary/20">
                 <img
-                  src="/profile-pic.jpg"
+                  src="/professional-developer-portrait.png"
                   alt="Developer Portrait"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
                 />

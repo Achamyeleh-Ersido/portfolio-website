@@ -5,14 +5,14 @@ const experiences = [
   {
     role: "Senior Full-Stack Developer",
     company: "Tech Innovations Inc.",
-    period: "2022 - Present",
+    period: "2022 - 2023",
     description:
       "Leading development of cloud-native applications using Next.js and AWS. Architecting scalable solutions and mentoring junior developers.",
   },
   {
     role: "Full-Stack Developer",
     company: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
+    period: "2023 - 2024",
     description:
       "Built and maintained multiple client projects using React, Node.js, and MongoDB. Improved application performance by 40%.",
   },
@@ -26,7 +26,7 @@ const experiences = [
   {
     role: "Junior Developer",
     company: "StartUp Hub",
-    period: "2018 - 2019",
+    period: "2024 - 2025",
     description:
       "Assisted in development of various web projects. Learned modern development practices and agile methodologies.",
   },

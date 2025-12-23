@@ -105,12 +105,12 @@ export function Contact() {
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Email</div>
                     <a href="mailto:hello@example.com" className="text-primary hover:underline">
-                      hello@example.com
+                      achamyelehersido9@gmail.com
                     </a>
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Location</div>
-                    <div>San Francisco, CA</div>
+                    <div>Addisababa, Ethiopia</div>
                   </div>
                 </div>
               </Card>
@@ -132,7 +132,7 @@ export function Contact() {
           </div>
 
           <div className="text-center mt-16 text-muted-foreground">
-            <p>© 2025 Full-Stack Developer. Built with Next.js & Tailwind CSS.</p>
+            <p>© 2025 Full-Stack Developer.</p>
           </div>
         </div>
       </div>

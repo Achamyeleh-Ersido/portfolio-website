@@ -86,17 +86,17 @@ export function Projects() {
                   </div>
 
                   <div className="flex gap-3">
-                    <Button size="sm" variant="outline" asChild>
+                    {/* <Button size="sm" variant="outline" asChild>
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
                         Live Demo
                       </a>
-                    </Button>
+                    </Button> */}
                     <Button size="sm" variant="outline" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      {/* <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         Code
-                      </a>
+                      </a> */}
                     </Button>
                   </div>
                 </div>

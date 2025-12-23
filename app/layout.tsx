@@ -8,9 +8,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Full-Stack Web Developer | Portfolio",
-  description: "Building fast, scalable, and modern web experiences.",
-  generator: "v0.app",
+  
   icons: {
     icon: [
       {

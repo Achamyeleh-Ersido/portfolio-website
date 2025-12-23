@@ -6,7 +6,7 @@ export function About() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-balance">About Me</h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a passionate full-stack developer with over 5 years of experience building modern web applications. I
+              I'm a passionate full-stack developer with over 2 years of experience building modern web applications. I
               specialize in creating scalable, performant solutions using the latest technologies and best practices.
             </p>
             <p>
@@ -21,15 +21,15 @@ export function About() {
 
           <div className="grid sm:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">5+</div>
+              <div className="text-4xl font-bold text-primary mb-2">2+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">50+</div>
+              <div className="text-4xl font-bold text-primary mb-2">13+</div>
               <div className="text-sm text-muted-foreground">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">30+</div>
+              <div className="text-4xl font-bold text-primary mb-2">10+</div>
               <div className="text-sm text-muted-foreground">Happy Clients</div>
             </div>
           </div>

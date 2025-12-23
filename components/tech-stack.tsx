@@ -10,8 +10,6 @@ const technologies = [
   { name: "MongoDB", icon: "🍃", category: "Database" },
   { name: "PostgreSQL", icon: "🐘", category: "Database" },
   { name: "Tailwind CSS", icon: "🎨", category: "Styling" },
-  { name: "Docker", icon: "🐋", category: "DevOps" },
-  { name: "AWS", icon: "☁️", category: "Cloud" },
   { name: "Git", icon: "📦", category: "Tools" },
 ]
 
