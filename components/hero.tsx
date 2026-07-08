@@ -28,7 +28,7 @@ export function Hero() {
   //   document.body.removeChild(link)
   // }const DownloadPDF = () => {
   const handleDownload = (): void => {
-    window.location.href = "/files/CV.pdf";
+    window.location.href = "/files/Achamyeleh_Ersido_CV.pdf";
   };
 
   return (
