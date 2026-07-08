@@ -42,7 +42,7 @@ export function Hero() {
           <div className="space-y-8 parallax">
             <div className="inline-block">
               <span className="text-sm text-primary font-mono border border-primary/30 bg-primary/5 px-4 py-2 rounded-full text-transparent">
-                   frelancer 
+                   fre
               </span>
             </div>
 
@@ -85,7 +85,7 @@ export function Hero() {
           </div>
 
           {/* Portrait */}
-          <div className="flex justify-center lg:justify-end parallax">
+          <div className="flex justify-center lg:justify-end parallax mr-15">
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-primary/50 to-accent/50 rounded-2xl blur-xl opacity-75 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl overflow-hidden border border-primary/20">
