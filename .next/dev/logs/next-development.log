@@ -1,10 +1,102 @@
-[00:00:03.405] Server  LOG      ✓ Ready in 2.3s
-[00:00:10.884] Server  LOG      ○ Compiling / ...
-[00:00:14.098] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.145] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:18.145] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:18.145] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783495591330} /_vercel/insights/view
-[00:00:30.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:32.394] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:32.394] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:32.394] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783495605581} /_vercel/insights/view
+[00:00:02.977] Server  LOG      ✓ Ready in 2.1s
+[00:00:13.564] Server  LOG      ○ Compiling / ...
+[00:00:16.252] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.071] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:21.071] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:21.071] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#projects color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#projects","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783545565639} /_vercel/insights/view
+[00:38:24.548] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:24.826] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:38:24.826] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:38:24.826] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783547849398} /_vercel/insights/view
+[00:46:20.968] Server  LOG      ✓ Compiled in 98ms
+[00:47:47.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:47.524] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:47.524] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:47:47.524] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783548412092} /_vercel/insights/view
+[00:49:27.178] Server  LOG      ✓ Compiled in 72ms
+[00:50:09.749] Server  LOG      ✓ Compiled in 51ms
+[00:51:03.624] Server  LOG      ✓ Compiled in 53ms
+[00:52:44.342] Browser ERROR   ./app/page.tsx:3:1
+Export TechStack doesn't exist in target module
+  1 | import { Hero } from "@/components/hero"
+  2 | import { About } from "@/components/about"
+> 3 | import { TechStack } from "@/components/tech-stack"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Projects } from "@/components/projects"
+  5 | import { Experience } from "@/components/experience"
+  6 | import { Testimonials } from "@/components/testimonials"
+
+The export TechStack was not found in module [project]/components/tech-stack.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:52:44.808] Browser ERROR   ./app/page.tsx:3:1
+Export TechStack doesn't exist in target module
+  1 | import { Hero } from "@/components/hero"
+  2 | import { About } from "@/components/about"
+> 3 | import { TechStack } from "@/components/tech-stack"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Projects } from "@/components/projects"
+  5 | import { Experience } from "@/components/experience"
+  6 | import { Testimonials } from "@/components/testimonials"
+
+The export TechStack was not found in module [project]/components/tech-stack.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:52:55.825] Browser ERROR   ./app/page.tsx:3:1
+Export TechStack doesn't exist in target module
+  1 | import { Hero } from "@/components/hero"
+  2 | import { About } from "@/components/about"
+> 3 | import { TechStack } from "@/components/tech-stack"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Projects } from "@/components/projects"
+  5 | import { Experience } from "@/components/experience"
+  6 | import { Testimonials } from "@/components/testimonials"
+
+The export TechStack was not found in module [project]/components/tech-stack.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:52:56.794] Browser ERROR   ./app/page.tsx:3:1
+Export TechStack doesn't exist in target module
+  1 | import { Hero } from "@/components/hero"
+  2 | import { About } from "@/components/about"
+> 3 | import { TechStack } from "@/components/tech-stack"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { Projects } from "@/components/projects"
+  5 | import { Experience } from "@/components/experience"
+  6 | import { Testimonials } from "@/components/testimonials"
+
+The export TechStack was not found in module [project]/components/tech-stack.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:53:13.249] Server  LOG      ✓ Compiled in 55ms
+[00:53:13.385] Server  ERROR   C:\Users\hp\Documents\GitHub\portfolio-website\.next\dev\server\chunks\ssr\[root-of-the-server]__fd253414._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:13.389] Server  ERROR    ⨯ ReferenceError: TechStack is not defined
+[00:53:13.414] Server  ERROR   C:\Users\hp\Documents\GitHub\portfolio-website\.next\dev\server\chunks\ssr\[root-of-the-server]__fd253414._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:13.415] Server  ERROR    ⨯ ReferenceError: TechStack is not defined
+[00:53:13.560] Browser ERROR   uncaughtError: ReferenceError: TechStack is not defined
+[00:53:13.798] Browser ERROR   uncaughtError: ReferenceError: TechStack is not defined
+[00:53:22.765] Server  ERROR   C:\Users\hp\Documents\GitHub\portfolio-website\.next\dev\server\chunks\ssr\[root-of-the-server]__fd253414._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:22.765] Server  ERROR    ⨯ ReferenceError: TechStack is not defined
+[00:53:22.868] Server  ERROR   C:\Users\hp\Documents\GitHub\portfolio-website\.next\dev\server\chunks\ssr\[root-of-the-server]__fd253414._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:22.868] Server  ERROR    ⨯ ReferenceError: TechStack is not defined
+[00:53:23.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:23.621] Browser ERROR   uncaughtError: ReferenceError: TechStack is not defined
+[00:53:37.871] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:37.871] Browser ERROR   uncaughtError: ReferenceError: TechStack is not defined
+[00:53:38.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:38.420] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:53:38.420] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:53:38.420] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783548762988} /_vercel/insights/view
+[00:57:38.187] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:38.187] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:57:38.187] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:57:38.187] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#features color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#features","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783548805995} /_vercel/insights/view
+[00:57:38.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:38.200] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:57:38.200] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:57:38.200] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1783548897821} /_vercel/insights/view
+[01:04:01.168] Server  LOG      ✓ Compiled in 55ms
+[01:04:46.571] Browser LOG     Form submitted: {"email":"venusyoky@gmail.com","message":"jkfals;dkfjalksd","name":"hellpfjkals"}
+[01:04:50.300] Browser LOG     Form submitted: {"email":"venusyoky@gmail.com","message":"jkfals;dkfjalksd","name":"hellpfjkals"}
+[01:05:16.106] Server  LOG      ✓ Compiled in 51ms
+[01:05:39.434] Browser LOG     Form submitted: {"email":"achamyelehersido9@gmail.com","message":"jkfals;dkfjalksd","name":"hellpfjkals"}

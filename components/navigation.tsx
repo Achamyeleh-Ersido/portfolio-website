@@ -19,9 +19,9 @@ export function Navigation() {
 
   const navLinks = [
     { href: "#about", label: "About" },
-    { href: "#tech", label: "Tech Stack" },
+   // { href: "#tech", label: "Tech Stack" },
     { href: "#projects", label: "Projects" },
-    { href: "#experience", label: "Experience" },
+    //{ href: "#experience", label: "Experience" },
     { href: "#contact", label: "Contact" },
   ]
 
@@ -34,7 +34,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="text-xl md:text-2xl font-bold text-primary">
-            {"<Dev />"}
+            {""}Achamyeleh Ersido
           </a>
 
           {/* Desktop Navigation */}

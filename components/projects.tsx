@@ -10,33 +10,33 @@ const projects = [
     image: "/modern-ecommerce-website.png",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Achamyeleh-Ersido/e-commerce-",
   },
   {
     title: "SaaS Analytics Dashboard",
     description:
       "Real-time analytics dashboard for SaaS products with advanced data visualization and reporting capabilities.",
-    image: "/analytics-dashboard-dark.jpg",
+    image: "/saas.png",
     tech: ["React", "Node.js", "MongoDB", "Chart.js"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Achamyeleh-Ersido/Saas-anaytics-dashboard",
   },
   {
-    title: "Social Media App",
+    title: "Multi Tenant Booking System",
     description:
-      "A feature-rich social media platform with real-time messaging, posts, likes, and user authentication.",
-    image: "/social-media-app-interface.png",
+      "A scalable booking system for managing reservations across multiple tenants with real-time availability and scheduling.",
+    image: "/multi booking system.png",
     tech: ["Next.js", "Tailwind", "PostgreSQL", "Redis"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://multi-tenant-booking-system.vercel.app/",
+    githubUrl: "https://github.com/Achamyeleh-Ersido/Multi-Tenant-Booking-System",
   },
   {
-    title: "AI Content Generator",
-    description: "AI-powered content generation tool using OpenAI API with custom prompts and content management.",
-    image: "/ai-tool-interface.jpg",
-    tech: ["Next.js", "OpenAI", "TypeScript", "Supabase"],
+    title: "Learning Management System (LMS)",
+    description: "A comprehensive LMS for online courses, quizzes, and student progress tracking with a user-friendly interface.",
+    image: "/lms.png",
+    tech: ["Next.js", "React", "TypeScript", "PostgreSQL"],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Achamyeleh-Ersido/Learning-Mangement-System-for-Hawassa-University-Daye-Campus",
   },
 ]
 
@@ -86,17 +86,17 @@ export function Projects() {
                   </div>
 
                   <div className="flex gap-3">
-                    {/* <Button size="sm" variant="outline" asChild>
+                    <Button size="sm" variant="outline" asChild>
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
                         Live Demo
                       </a>
-                    </Button> */}
+                    </Button>
                     <Button size="sm" variant="outline" asChild>
-                      {/* <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                         <Github className="mr-2 h-4 w-4" />
                         Code
-                      </a> */}
+                      </a>
                     </Button>
                   </div>
                 </div>

@@ -42,14 +42,14 @@ export function Hero() {
           <div className="space-y-8 parallax">
             <div className="inline-block">
               <span className="text-sm text-primary font-mono border border-primary/30 bg-primary/5 px-4 py-2 rounded-full">
-                Available for freelance
+                
               </span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-balance">
-              Full-Stack
+              Achamyeleh
               <br />
-              <span className="text-primary">Web Developer</span>
+              <span className="text-primary">Ersido</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl">

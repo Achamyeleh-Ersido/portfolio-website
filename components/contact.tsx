@@ -110,7 +110,7 @@ export function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-muted-foreground mb-1">Location</div>
-                    <div>Addisababa, Ethiopia</div>
+                    <div>Addis Ababa, Ethiopia</div>
                   </div>
                 </div>
               </Card>
@@ -132,7 +132,7 @@ export function Contact() {
           </div>
 
           <div className="text-center mt-16 text-muted-foreground">
-            <p>© 2025 Full-Stack Developer.</p>
+            <p>© 2025 Achamyele Ersido.</p>
           </div>
         </div>
       </div>
