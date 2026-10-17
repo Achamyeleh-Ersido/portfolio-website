@@ -90,7 +90,7 @@ export function Hero() {
                 <img
                   src="/Professional Studio Headshot.png"
                   alt="Developer Portrait"
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover hover:grayscale-0 transition-all duration-500"
                 />
               </div>
             </div>
