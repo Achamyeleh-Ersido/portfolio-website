@@ -9,7 +9,7 @@ const projects = [
       "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
     image: "/modern-ecommerce-website.png",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
-    liveUrl: "#",
+    //liveUrl: "#",
     githubUrl: "https://github.com/Achamyeleh-Ersido/e-commerce-",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
       "Real-time analytics dashboard for SaaS products with advanced data visualization and reporting capabilities.",
     image: "/saas.png",
     tech: ["React", "Node.js", "MongoDB", "Chart.js"],
-    liveUrl: "#",
+    //liveUrl: "#",
     githubUrl: "https://github.com/Achamyeleh-Ersido/Saas-anaytics-dashboard",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "A scalable booking system for managing reservations across multiple tenants with real-time availability and scheduling.",
     image: "/multi booking system.png",
     tech: ["Next.js", "Tailwind", "PostgreSQL", "Redis"],
-    liveUrl: "https://multi-tenant-booking-system.vercel.app/",
+    //liveUrl: "https://multi-tenant-booking-system.vercel.app/",
     githubUrl: "https://github.com/Achamyeleh-Ersido/Multi-Tenant-Booking-System",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     description: "A comprehensive LMS for online courses, quizzes, and student progress tracking with a user-friendly interface.",
     image: "/lms.png",
     tech: ["Next.js", "React", "TypeScript", "PostgreSQL"],
-    liveUrl: "#",
+    //liveUrl: "#",
     githubUrl: "https://github.com/Achamyeleh-Ersido/Learning-Mangement-System-for-Hawassa-University-Daye-Campus",
   },
 ]
