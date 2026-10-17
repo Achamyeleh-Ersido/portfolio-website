@@ -6,7 +6,7 @@ export function About() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-balance">About Me</h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a software engineer passionate about creating elegant solutions to complex problems I
+              I'm a software engineer passionate about creating elegant solutions to complex problems. I
               specialize in creating scalable, performant solutions using the latest technologies and best practices.
             </p>
             <p>
